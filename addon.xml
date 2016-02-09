@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon
+	id="plugin.audio.kiisfm"
+	name="KIIS FM"
+	version="1.0.0"
+	provider-name="KIISFM">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<source>https://github.com/yorickdewid/KIISFM</source>
+		<platform>all</platform>
+		<language>en</language>
+		<summary>KIIS FM - LA's #1 Hit Music Station</summary>
+		<description>Don't miss out on the latest from KIIS FM, LA's #1 Hit Music Station.</description>
+	</extension>
+</addon>
